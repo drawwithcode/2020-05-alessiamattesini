@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "a simple node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessiamattesini/node-project.git"
+  },
+  "author": "Alessia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessiamattesini/node-project/issues"
+  },
+  "homepage": "https://github.com/alessiamattesini/node-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  }
+}
