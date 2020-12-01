@@ -40,11 +40,6 @@ function setup() {
   createCanvas(windowWidth,windowHeight)
   // put setup code here
   background('black');
-
-}
-
-function draw() {
-  // put drawing code here
   push();
   fill(myColor);
   textFont('Montserrat');
@@ -53,6 +48,12 @@ function draw() {
   text('Move your mouse to draw, click and move to interrupt the line.', width/2, height/2);
   text('Draw with your friends.', width/2, height/2+50);
   pop();
+
+}
+
+function draw() {
+  // put drawing code here
+
 }
 
 function mouseMoved (){
