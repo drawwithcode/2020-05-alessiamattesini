@@ -34,26 +34,26 @@ pop();
 
 function preload(){
   // put preload code here
+  montserrat = loadFont('assets/Montserrat-Light.ttf');
 }
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
   // put setup code here
   background('black');
-  push();
-  fill(myColor);
-  textFont('Montserrat');
-  textAlign('center');
-  textSize(15);
-  text('Move your mouse to draw, click and move to interrupt the line.', width/2, height/2);
-  text('Draw with your friends.', width/2, height/2+50);
-  pop();
 
 }
 
 function draw() {
   // put drawing code here
-
+  push();
+  textFont(montserrat);
+  fill(myColor);
+  textAlign('center');
+  textSize(15);
+  text('Move your mouse to draw, click and move to interrupt the line.', width/2, height/2);
+  text('Draw with your friends.', width/2, height/2+50);
+  pop();
 }
 
 function mouseMoved (){
